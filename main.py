@@ -13,8 +13,8 @@ import datetime
 from datetime import timedelta
 
 print('Initializing data polling app')
-authentication_key = 'mptni9iYgawgTtiIvpSkTI3ba1xltXmG'
-authentication_secret = 'dFTlE2aL2wRLP0kbg2l0Af1B7oMrcYXf'
+authentication_key = '<authentication_key>'
+authentication_secret = '<authentication_secret>'
 previous_id = ''
 
 simplicate_projects_url = 'https://yellowarrow.simplicate.nl/api/v2/projects/project?limit=1&sort=-created&fields=created&q[created][gt]='
