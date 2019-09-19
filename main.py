@@ -25,7 +25,7 @@ dataPolling = True
 print('Running data polling app.. waiting for new projects')
 while dataPolling:
     current_timestamp = datetime.datetime.now()
-    check_timestamp = str(current_timestamp + timedelta(seconds=-11))
+    check_timestamp = str(current_timestamp + timedelta(hours=-2, seconds=-11))
     request_projects = requests.get(simplicate_projects_url + check_timestamp,
                                     headers={
                                         'Authentication-Key': authentication_key,
